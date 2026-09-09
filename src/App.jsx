@@ -1,3 +1,4 @@
+import Timer from './components/Timer';
 import { useState, useEffect, useRef } from "react";
 import { ChevronLeft, ChevronRight, RotateCcw, Home, Shuffle, Flag, Star, Download, RefreshCw } from "lucide-react";
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
@@ -1227,6 +1228,7 @@ export default function QuizDEA() {
 
     return (
       <div style={{ minHeight: "100vh", background: "#0f172a", padding: "16px", fontFamily: "system-ui, sans-serif" }}>
+        <Timer durationMinutes={120} />
         <div style={{ maxWidth: 680, margin: "0 auto" }}>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 12 }}>
             <button onClick={() => setScreen("home")} style={{ background: "rgba(255,255,255,0.08)", border: "none", color: "#94a3b8", borderRadius: 8, padding: "6px 12px", cursor: "pointer", fontSize: 12 }}>
