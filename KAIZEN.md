@@ -1,28 +1,20 @@
 # Kaizen - Simulador ECEP DEA
 
-## Semana 1: Cronómetro ✅ COMPLETADA
+## Semana 1: Cronómetro ✅
 **Fecha**: 8-12 Sep 2025
 
 ### PLAN
-- Agregar cronómetro de 2 horas
-- Función pausa/reanudación
-- Alerta al terminar
-- Cambios de color según tiempo
+- Agregar cronómetro de 2 horas con pausa/reinicio
 
 ### DO
-- [x] Crear Timer.jsx con estilos inline
-- [x] Integrar en App.jsx (pantalla quiz)
+- [x] Crear Timer.jsx
+- [x] Integrar en App.jsx
 - [x] Deploy en Netlify
-- [x] Testear en desktop y móvil
 
 ### CHECK
-- ¿Funciona en desktop? ✅
-- ¿Funciona en móvil? ✅
-- Feedback piloto 1: ___
-- Feedback piloto 2: ___
-- Visitas esta semana: ___
-- Tiempo promedio de sesión: ___
+- Funciona en desktop ✅
+- Funciona en móvil ✅
+- Feedback: ___
 
 ### ACT
-- Semana 2: Filtro por tema (Dislexia, TDAH, DUA, etc.)
-- Pendiente: Validar con 5 pilotos
+- Semana 2: Filtro por tema
